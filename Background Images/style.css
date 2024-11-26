@@ -1,0 +1,114 @@
+.leadersDiv{
+    width: 350px;
+    border: 3px double black;
+    background-color: tomato;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.indiaLeadersDiv{
+    width: 300px;
+    display: inline-block;
+    background-color: aqua;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 10px dotted gold;
+}
+.indiaLeadersDiv p{
+    text-align: justify;
+}
+.leadersPic{
+    width: 300px;
+    height: 200px;
+}
+.leadersDiv p{
+    text-align: justify;
+}
+#JPDiv{background-image: url(./images/BJP\ Logo.png);
+background-size: 150px;
+
+}
+#CBNDiv{
+    border: 8px ridge darkgoldenrod;
+    background-image: url(./images/TDP\ Logo.png);
+    background-size:100px;
+    background-repeat: repeat-y;
+    background-origin:border-box;
+}
+#PSPKDiv{
+    background-image: url(./images/Janasena\ Logo.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center bottom ;
+    background-origin: padding-box;
+
+
+
+}
+body{
+    background-image: url(./images/bjp2nd\ small.jpg);
+    background-size: 30px;
+}
+h1{
+    color: darkred;
+    background-color: blueviolet;
+    text-align: center;
+    border: 5px groove yellow;
+    border-radius: 20px;
+}
+#JPHeading{
+    color: white}
+    #CBNHeading{
+        color: yellow;
+    }
+    h2::first-letter{
+        color: blue;
+        font-size: 2rem;
+    }
+    a{
+        color: blanchedalmond;
+        background-color: darkgreen;
+        font-size: 2rem;
+    }
+    a:hover{
+        background-color: darkgoldenrod;
+        color: seagreen;
+    }
+    p::first-line{color:blue;}
+    h1::first-letter{color: gold;
+    font-size: 2.5rem;}
+#khargeDiv{
+    background-image: url(./images/congress\ logo.png);
+    background-size:100px;
+    background-repeat: repeat-x;
+    background-origin: padding-box;
+}
+#akhileshDiv{
+    border: 20px dotted yellow;
+    padding:20px;
+    background-image: url(./images/SP\ logo.png);
+    background-size: 100px;
+    background-repeat:repeat;
+    background-origin:content-box ;
+
+}
+#kejriwalDiv{
+    background-image: url(./images/aap\ logo.png);
+    background-size: 100px;
+    background-repeat:no-repeat;
+    background-clip: content-box;
+    background-color: yellow;
+    background-origin: border-box;
+    border: 10px ridge red;
+    background-position: center center;
+
+}
+#indiaBody{
+    background-image: url(./images/congress\ logo.png);
+    background-size: 30px;
+
+}
